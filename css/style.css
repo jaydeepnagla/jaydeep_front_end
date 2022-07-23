@@ -1,0 +1,136 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.headlogo{
+	background-color:yellow;
+	width:15%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.headnav{
+	background-color:yellow;
+	width:85%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.button{
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	text-align:center;
+	padding:10px;
+}
+
+
+.banner{
+	background-image:url(penguins.jpg);
+	background-size:100% 100%;
+	text-align:center;
+	width:100%;
+	height:auto;
+	float:left;
+	padding:100px;
+	color:white;
+	font-size:30px;
+}
+.navbar{
+	background-color:yellow;
+	width:100%;
+	height:auto;
+	float:left;
+}										
+.navbar a{
+	color:black;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:15px;
+	font-size:20px;
+	font-weight:bold;
+}
+.navbar a:hover{
+	color:white;
+	background-color:green;
+}
+
+.sidebar{
+	width:15%;
+	height:auto;
+	float:left;
+	background-color:#fce26d;
+	padding:10px;
+}
+
+.sidebar img{
+		width:100%;
+		border-radius:10px;
+}
+
+
+.mainbar{
+	width:85%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+
+.mainbar img{
+		width:100%;
+		border-radius:10px;
+		height:250px;
+}
+
+.box1{
+	width:30%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.box2{
+	width:70%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+
+.box3{
+	
+	background-color:orange;
+	border:solid 2px black;
+	border-radius:20px;
+	padding:10px;
+	
+}
+
+.box3pad{
+	width:25%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+
+
+.footer{
+	background-color:Black;
+	color:White;
+	width:25%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
